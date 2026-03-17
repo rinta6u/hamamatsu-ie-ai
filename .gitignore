@@ -1,0 +1,15 @@
+# 環境変数（絶対にコミットしない）
+.env
+
+# データディレクトリ（ユーザーデータ・ログ）
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
