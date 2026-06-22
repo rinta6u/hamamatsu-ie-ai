@@ -275,7 +275,7 @@ async def ask_claude(user_id: str, user_message: str) -> str:
 
     try:
         response = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-4-6",
             max_tokens=1200,
             system=build_system_prompt(user_id),
             messages=history,
